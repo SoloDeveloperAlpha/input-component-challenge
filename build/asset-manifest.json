@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/input-component-challenge/build/static/css/main.51cd612b.css",
+    "main.js": "/input-component-challenge/build/static/js/main.3657b8b7.js",
+    "index.html": "/input-component-challenge/build/index.html",
+    "main.51cd612b.css.map": "/input-component-challenge/build/static/css/main.51cd612b.css.map",
+    "main.3657b8b7.js.map": "/input-component-challenge/build/static/js/main.3657b8b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51cd612b.css",
+    "static/js/main.3657b8b7.js"
+  ]
+}

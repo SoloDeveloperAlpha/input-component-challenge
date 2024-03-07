@@ -1,0 +1,111 @@
+@use './base/base';
+
+.cont-input{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  .lb-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    .prop-style{
+      width: 200px;
+      min-height: 56px;
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center;
+      >input{
+        width: 80%;
+        height: 100%;
+        outline: none;
+        border-radius: 8px;
+        text-indent: 1em;
+        border: 1px;
+      }
+    }
+    
+  }
+}
+
+.prop-style.default,.prop-style.default2,.prop-style.defhover{
+  width: auto;
+  height: 100%;
+  border-radius: 8px;
+  border: 1px solid base.$Input-Color1;
+}
+
+.prop-style.defhover:hover{
+  border: 1px solid base.$Input-Color2;
+  outline:none;
+}
+
+.prop-style.error{
+  width: auto;
+  height: 100%;
+  border-radius: 8px;
+  color: base.$Font-Color4;
+  border: 1px solid base.$Input-Color4;
+}
+.prop-style.error2,.prop-style.errhover{
+  width: auto;
+  height: 100%;
+  border-radius: 8px;
+  color: base.$Font-Color4;
+  border: 1px solid base.$Input-Color1;
+}
+
+.prop-style.errhover:hover{
+  border: 1px solid base.$Input-Color2;
+  outline:none;
+  
+}
+
+.prop-style.disabled{
+  width: auto;
+  height: 100%;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.prop-style.sma{
+  width: auto;
+  border-radius: 8px;
+  border: 1px solid base.$Input-Color1;
+}
+.prop-style.med{
+  width: auto;
+  border-radius: 8px;
+  border: 1px solid base.$Input-Color1;
+}
+.prop-style.full{
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid base.$Input-Color1;
+}
+.prop-style.multi{
+  width: auto;
+  height:150px;
+  border-radius: 8px;
+  border: 1px solid base.$Input-Color1;
+}
+
+.mostrar{
+  color:base.$Font-Color5;
+}
+.mostrar.pierror{
+  color:base.$Font-Color4;
+}
+
+.material-symbols-outlined {
+  padding: 0 5px 0 5px;
+  color: base.$Font-Color5;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+

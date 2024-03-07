@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Ubuntu+Mono:wght@400;700&display=swap');
+
+  $Font-Poppins:"Poppins", sans-serif;
+  $Font-Ubuntu:"Ubuntu Mono", monospace;
+  $Font-Noto:"Noto Sans JP", sans-serif;
+  $Col1-Color:#FAFBFD;
+  $ColorDef1:#E0E0E0;
+  $ColorDef2:#AEAEAE;
+  $ColorDef3:#3D5AFE;
+  $ColorDef4:#2962FF1A;
+  $Font-Color1:#9E9E9E;
+  $Font-Color2:#3F3F3F;
+  $Font-Color3:#4F4F4F;
+  $Font-Color4:#D32F2F;
+  $Font-Color5:#828282;
+  $Input-Color1:#828282;
+  $Input-Color2:#333333;
+  $Input-Color3:#2962FF;
+  $Input-Color4:#D32F2F;
+  $Dev-Color1:#090F31;
+  $Dev-Color2:#F7542E;
+  $Bg-Color1:#f2f2f2;
+
+
+h1,h2{
+  font-family: var(--Font-Poppins);
+}
+p{
+  font-family: var(--Font-Ubuntu);
+}
+
+h1{
+  font-size:18px;
+  font-weight: 500;
+  line-height: 36px;
+}
+p{
+  font-size: 12px;
+}
+
+label{
+  font-size: 12px;
+}
+
+small{
+  font-size: 11px;
+}

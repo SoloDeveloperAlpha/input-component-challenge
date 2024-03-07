@@ -1,0 +1,35 @@
+@use './base/base';
+
+.cont-central{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 4em;
+  gap: 2em;
+  >h1{
+    font-weight: 500;
+    line-height: 36px;
+  }
+  .fila-input{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .fila-input2{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .fila-input3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+}
